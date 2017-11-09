@@ -27,8 +27,8 @@ module UART_TESTING(
 
 	input          fpag_uart_rx;	
 	output         fpag_uart_tx;	
-	//wire	pipe1;
-	//assign	pipe1 = 	fpag_uart_rx;
+	wire	pipe1;
+	assign	pipe1 = 	fpag_uart_rx;
 	assign	fpag_uart_tx = fpag_uart_rx	;
 
 endmodule
